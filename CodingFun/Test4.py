@@ -1,0 +1,2 @@
+
+print('Your', 'Mom', sep='/')
