@@ -13,12 +13,24 @@
 #Is the number outside the range? If yes, say that's invalid and get new input
 #Is the number inside the range and been selected previously? If yes, say that number has been selected
 #Is the number inside the range and unselected? If yes, give the color assigned to that number
+import random
+print ('Welcome, please select a number')
 
-colorList = ["White," "Blue", "Black", "Red", "Green"]
+inputSelect = input()
 
 
 
 
+def colorSelection():
+    colorList = ["White, ", "Blue ", "Black ", "Red ", "Green "]
+    random.choice(colorList)
+    return colorList
+
+
+
+colorSelected = colorSelection()
+print(colorSelected[1])
+#print("Your color is " + colorSelected)
 
 
 
