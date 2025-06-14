@@ -1,2 +1,0 @@
-
-print('Your', 'Mom', sep='/')
